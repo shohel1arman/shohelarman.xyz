@@ -4,12 +4,18 @@ import { MapPin, Mail, Calendar, Award, Sparkles } from "lucide-react"
 
 const AboutPage = () => {
   const timelineEvents = [
+     {
+      year: "2016-2020",
+      title: "M.Sc. in Software Engineering",
+      institution: "Daffodil International University (DIU)",
+      description: "Graduated with CGPA: 4.00/4.00. Developed a strong foundation in software engineering principles and programming.",
+      type: "education",
+    },
     {
       year: "2012-2015",
       title: "B.Sc. in Software Engineering",
       institution: "Daffodil International University (DIU)",
-      description:
-        "Graduated with CGPA: 3.86/4.00. Developed strong foundation in software engineering principles and programming.",
+      description: "Graduated with CGPA: 3.86/4.00. Developed a strong foundation in software engineering principles and programming.",
       type: "education",
     },
     {
@@ -304,5 +310,6 @@ const AboutPage = () => {
     </div>
   )
 }
+
 
 export default AboutPage
