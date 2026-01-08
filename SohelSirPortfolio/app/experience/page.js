@@ -8,6 +8,22 @@ const ExperiencePage = () => {
 
      const professionalExperiences = [
           {
+               title: "Research Assistant",
+               company: "Washington University Of Science & Technology (WUST), USA",
+               period: "2024 - Present",
+               type: "Research",
+               icon: FlaskConical,
+               responsibilities: [
+                    "Conducted research in software engineering and data science",
+                    "Assisted in grant proposal writing and research project management",
+                    "Collaborated with senior researchers on academic publications",
+                    "Participated in data collection and analysis activities",
+                    "Presented research findings at academic conferences",
+                    "Conducting research in Computer Vision and Machine Learning, with active contributions to collaborative international publications",
+               ],
+               skills: ["Research Methodology", "Data Analysis", "Academic Writing", "Project Management"],
+          },
+          {
                title: "Assistant Professor & Lab In-charge",
                company: "Daffodil International University (DIU)",
                period: "August 2022 - Present",
@@ -25,7 +41,7 @@ const ExperiencePage = () => {
           {
                title: "Senior Lecturer",
                company: "Daffodil International University (DIU)",
-               period: "May 2020 - August 2022",
+               period: "June 2020 - August 2022",
                type: "Academic",
                icon: BookOpen,
                responsibilities: [
@@ -40,7 +56,7 @@ const ExperiencePage = () => {
           {
                title: "Lecturer",
                company: "Daffodil International University (DIU)",
-               period: "September 2017 - April 2020",
+               period: "September 2017 - May 2020",
                type: "Academic",
                icon: BookOpen,
                responsibilities: [
@@ -63,6 +79,21 @@ const ExperiencePage = () => {
                     "Assisted in grant proposal writing and research project management",
                     "Collaborated with senior researchers on academic publications",
                     "Participated in data collection and analysis activities",
+                    "Presented research findings at academic conferences",
+               ],
+               skills: ["Research Methodology", "Data Analysis", "Academic Writing", "Project Management"],
+          },
+          {
+               title: "Teaching Apprentice",
+               company: "Daffodil International University (DIU)",
+               period: "November 2016 - December 2016",
+               type: "Academic",
+               icon: FlaskConical,
+               responsibilities: [
+                    "Delivering parts of a lesson while the lead teacher manages the rest",
+                    "Contributing ideas to departmental meetings about how to teach specific topics or improve existing schemes of work",
+                    "Recording grades and progress data into the school's tracking system",
+                    "Meeting weekly with campus-based mentor to review your progress, set targets for the following week, and reflect on your teaching practice",
                     "Presented research findings at academic conferences",
                ],
                skills: ["Research Methodology", "Data Analysis", "Academic Writing", "Project Management"],
@@ -547,3 +578,4 @@ const ExperiencePage = () => {
 
 
 export default ExperiencePage;
+
