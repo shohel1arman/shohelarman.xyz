@@ -20,7 +20,7 @@ const ExperiencePage = () => {
                     "Supervising student research projects and thesis work",
                     "Collaborating with industry partners on applied research projects",
                ],
-               skills: ["Research Leadership", "Curriculum Development", "Lab Management", "Student Mentoring"],
+               skills: ["Research Leadership", "Curriculum Development", "Lab Management", "Student Mentoring", "Thesis Supervisor"],
           },
           {
                title: "Senior Lecturer",
@@ -544,5 +544,6 @@ const ExperiencePage = () => {
           </div>
      );
 };
+
 
 export default ExperiencePage;
