@@ -72,8 +72,8 @@ const ContactPage = () => {
     },
     {
       title: "Phone",
-      value: "+880-XXX-XXXXXXX",
-      href: "tel:+880XXXXXXXXX",
+      value: "+880-167-3383289",
+      href: "tel:+8801673383289",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -307,3 +307,4 @@ const ContactPage = () => {
 }
 
 export default ContactPage
+
